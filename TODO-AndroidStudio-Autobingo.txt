@@ -1,0 +1,23 @@
+- Crear la mecánica del botón "Iniciar simulación"
+	. HECHO - Dibujar cada cartón - HECHO
+	. HECHO - Cada cartón tiene que tener sus datos - HECHO
+	. HECHO - Solo se dibujan los cartones marcados antes de la simulación - HECHO
+	. HECHO - Estar escuchando el micrófono y comprobando los números dichos en voz alta - HECHO
+	. HECHO - Poder marcar los números manualmente, haciendo que se queden con un color diferente y al estar marcado no cambia de color aunque se reconozca en el micrófono. Si se vuelve a hacer click vuelve al color por defecto (aunque anteriormente se haya reconocido el número con el micrófono) - HECHO
+	. HECHO - Los números reconocidos en el micrófono hacen que el número en cuestión se ponga de otro color (excepto si ya está marcado) - HECHO
+	. HECHO - Solo ejecutar el algoritmo de búsqueda de número por voz si se detectó que se dijo un número válido - HECHO
+	. HECHO - Si se dijo un número válido, recorrer todos los cartones checked en búsqueda de ese número - HECHO
+	. HECHO - Si se encuentra el número hay que marcarlo, para ello hay que buscar en el recyclerView el cartón comprobado y modificarle el color del número si se encontró - HECHO
+	. HECHO - Posiblemente habrá que tener en cuenta que a "noventa" (como otros) puede seguirle la frase "y uno" (u otros) - HECHO
+	. NO HACE FALTA - ¿Cómo compruebo que hice línea o bingo tanto de forma manual como automática? ¿O no hace falta? - NO HACE FALTA
+- Retoques finales
+	. NO HACE FALTA - Establecer colores para botones especiales - NO HACE FALTA
+	. HECHO - Al hacer click en cambiar nombre, borrar "Añadir cartón nuevo..." o parecido - HECHO
+	. HECHO - Comprobar si algún texto debería cambiarse o ponerles algún color - HECHO
+	. HECHO - El campo de introducir nombre es pequeño en altura - HECHO
+	. HECHO - Cambiar entre modo claro y oscuro con una sección localizada en la parte superior derecha de la ventana principal (serían como tres puntos verticales típicos). Serializarlo en CardboardProvider. Código: AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES) - HECHO
+	. HECHO - En esos tres puntos añadir también una sección "Acerca de" en el que salga una ventana flotante diciendo la versión y el autor de la aplicación - HECHO
+	. Limpieza de código
+		+ HECHO - Comprobar los import - HECHO
+		+ HECHO - Ver los Warnings y sugerencias del código - HECHO
+		+ HECHO - Ver si el diseño no tiene sugerencias - HECHO

@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:id="@+id/llBorder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/llMain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Sample Text" />
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num00"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num00m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num01m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num02m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num03m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num04m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num05m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num06"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num06m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num07"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num07m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num08"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num08m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num10m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num11m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num12m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num13m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num14m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num15m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num16m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num17m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num18m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num20m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num21m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num22m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num23m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num24m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num25m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num26m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num27m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="32dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+                        android:background="@drawable/rounded_edge_bg"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/num28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/rounded_edge_num_top"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="7pt" />
+
+                        <TextView
+                            android:id="@+id/num28m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/rounded_edge_num_bottom"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="4pt" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
